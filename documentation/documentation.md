@@ -39,4 +39,4 @@ Documentation regarding the planned cluster architecture can be consulted [here]
 ---
 ## Conclusions:
 
-The benchmark results can be consulted [here](../benchmarks/benchmark-results/benchmark-results.md).
+The benchmark results can be consulted [here](https://github.com/duartegithub/Unicage-Benchmarks-2021-2022-Results).
