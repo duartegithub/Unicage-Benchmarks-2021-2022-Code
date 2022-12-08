@@ -1,0 +1,49 @@
+Manifest-Version: 1.0
+Main-Class: WordCount
+Class-Path: httpclient-4.5.13.jar jersey-json-1.19.jar jackson-databind-
+ 2.10.5.1.jar jackson-core-asl-1.9.13.jar json-smart-2.4.2.jar jsr311-ap
+ i-1.1.1.jar animal-sniffer-annotations-1.17.jar jetty-util-ajax-9.4.40.
+ v20210413.jar curator-client-4.2.0.jar guice-4.0.jar jetty-client-9.4.4
+ 0.v20210413.jar hadoop-annotations-3.3.1.jar kerby-pkix-1.0.1.jar jaxb-
+ api-2.2.11.jar kerb-client-1.0.1.jar jetty-security-9.4.40.v20210413.ja
+ r jackson-jaxrs-json-provider-2.10.5.jar gson-2.2.4.jar slf4j-api-1.7.3
+ 0.jar jersey-server-1.19.jar commons-compress-1.19.jar htrace-core4-4.1
+ .0-incubating.jar jackson-module-jaxb-annotations-2.10.5.jar commons-be
+ anutils-1.9.4.jar kerby-asn1-1.0.1.jar slf4j-log4j12-1.7.30.jar kerb-id
+ entity-1.0.1.jar jackson-mapper-asl-1.9.13.jar hadoop-yarn-client-3.3.1
+ .jar jettison-1.1.jar okhttp-2.7.5.jar curator-recipes-4.2.0.jar kerby-
+ util-1.0.1.jar commons-lang3-3.7.jar jersey-guice-1.19.jar listenablefu
+ ture-9999.0-empty-to-avoid-conflict-with-guava.jar dnsjava-2.1.7.jar ch
+ ecker-qual-2.5.2.jar zookeeper-jute-3.5.6.jar guice-servlet-4.0.jar jci
+ p-annotations-1.0-1.jar token-provider-1.0.1.jar jetty-xml-9.4.40.v2021
+ 0413.jar hadoop-shaded-guava-1.1.1.jar hadoop-yarn-api-3.3.1.jar kerb-s
+ erver-1.0.1.jar jackson-jaxrs-base-2.10.5.jar commons-text-1.4.jar webs
+ ocket-common-9.4.40.v20210413.jar jackson-core-2.10.5.jar curator-frame
+ work-4.2.0.jar jline-3.9.0.jar netty-transport-native-unix-common-4.1.4
+ 2.Final.jar netty-resolver-4.1.42.Final.jar javax.inject-1.jar jsch-0.1
+ .55.jar netty-transport-native-epoll-4.1.42.Final.jar jersey-core-1.19.
+ jar commons-net-3.6.jar hadoop-auth-3.3.1.jar paranamer-2.3.jar jersey-
+ client-1.19.jar stax2-api-4.2.1.jar avro-1.7.7.jar httpcore-4.4.13.jar 
+ jetty-http-9.4.40.v20210413.jar commons-logging-1.1.3.jar jsr305-3.0.2.
+ jar commons-codec-1.11.jar netty-handler-4.1.42.Final.jar netty-buffer-
+ 4.1.42.Final.jar asm-8.0.1.jar re2j-1.1.jar nimbus-jose-jwt-9.8.1.jar j
+ 2objc-annotations-1.1.jar kerb-simplekdc-1.0.1.jar netty-common-4.1.42.
+ Final.jar netty-transport-4.1.42.Final.jar aopalliance-1.0.jar commons-
+ collections-3.2.2.jar jetty-servlet-9.4.40.v20210413.jar log4j-1.2.17.j
+ ar hadoop-shaded-protobuf_3_7-1.1.1.jar kerb-util-1.0.1.jar kerby-xdr-1
+ .0.1.jar netty-codec-4.1.42.Final.jar kerb-crypto-1.0.1.jar hadoop-mapr
+ educe-client-core-3.3.1.jar protobuf-java-2.5.0.jar hadoop-common-3.3.1
+ .jar jaxb-impl-2.2.3-1.jar zookeeper-3.5.6.jar commons-cli-1.2.jar comm
+ ons-configuration2-2.1.1.jar netty-3.10.6.Final.jar jackson-annotations
+ -2.10.5.jar javax.servlet-api-3.1.0.jar hadoop-yarn-common-3.3.1.jar co
+ mmons-math3-3.1.1.jar kerb-common-1.0.1.jar jersey-servlet-1.19.jar ker
+ b-core-1.0.1.jar jetty-util-9.4.40.v20210413.jar guava-27.0-jre.jar jet
+ ty-server-9.4.40.v20210413.jar websocket-client-9.4.40.v20210413.jar ke
+ rb-admin-1.0.1.jar snappy-java-1.1.8.2.jar jakarta.activation-api-1.2.1
+ .jar kerby-config-1.0.1.jar jsp-api-2.1.jar commons-io-2.8.0.jar jetty-
+ io-9.4.40.v20210413.jar websocket-api-9.4.40.v20210413.jar jackson-xc-1
+ .9.2.jar failureaccess-1.0.jar jakarta.xml.bind-api-2.3.2.jar jetty-web
+ app-9.4.40.v20210413.jar jackson-jaxrs-1.9.2.jar accessors-smart-2.4.2.
+ jar hadoop-hdfs-client-3.3.1.jar okio-1.6.0.jar audience-annotations-0.
+ 5.0.jar woodstox-core-5.3.0.jar
+

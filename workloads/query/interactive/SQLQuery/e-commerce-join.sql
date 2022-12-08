@@ -1,0 +1,1 @@
+create table join_${hivevar:gbsize}GB location '${hivevar:save_file}' as select ecom_order_${hivevar:gbsize}GB.buyer_id,  ecom_item_${hivevar:gbsize}GB.goods_amount from ecom_item_${hivevar:gbsize}GB join ecom_order_${hivevar:gbsize}GB on ecom_item_${hivevar:gbsize}GB.order_id = ecom_order_${hivevar:gbsize}GB.order_id;

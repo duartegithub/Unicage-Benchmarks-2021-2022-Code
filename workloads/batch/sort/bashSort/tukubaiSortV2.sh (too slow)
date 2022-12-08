@@ -1,0 +1,52 @@
+#!/bin/bash
+
+# Running command: ./tukubaiSortV2.sh <directory> <unicageworkers>
+#   directory: the directory of the input data-set
+#   unicageworkers: the list of unicageworkers
+
+directory=$1
+output_directory=$directory-results/unicage-result
+unicageworkers=$2
+
+BOA=/home/BOA
+TUKUBAI=/home/TOOL
+export PATH=$PATH:$BOA:/home/UTL:$TUKUBAI:/home/STAT
+
+mkdir -p ~/datav/outputs/$output_directory/
+
+for i in $unicageworkers; do
+
+    ping -c 1 $i &> /dev/null && {
+
+        ssh $i 'export PATH=$PATH:'$BOA':/home/UTL:'$TUKUBAI':/home/STAT
+
+        mkdir -p ~/datav/outputs/'$output_directory'/
+
+        for file in $(ls ~/datav/datasets/'$directory'); do
+            msort key=1 < ~/datav/datasets/'$directory'/$file > ~/datav/outputs/'$output_directory'/${file}_sort
+        done' &
+
+	    continue
+    }
+
+    echo "Could not reach "$i
+
+done
+
+wait
+
+touch ~/datav/outputs/$output_directory/output
+
+for i in $unicageworkers; do
+
+    for f in $(ssh $i 'ls ~/datav/outputs/'$output_directory'/'); do
+
+        scp $i:~/datav/outputs/$output_directory/$f ~/datav/outputs/$output_directory/pre-output
+        up3 key=1 ~/datav/outputs/$output_directory/output ~/datav/outputs/$output_directory/pre-output > ~/datav/outputs/$output_directory/output_tmp
+        mv ~/datav/outputs/$output_directory/output_tmp ~/datav/outputs/$output_directory/output
+
+    done
+
+done
+
+rm ~/datav/outputs/$output_directory/pre-output
