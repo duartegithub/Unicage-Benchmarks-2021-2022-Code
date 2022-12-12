@@ -11,7 +11,7 @@ An automated deployment of a local testing environment with Vagrant and VirtualB
 ## DISCLAIMERS & CREDITS:
 
 ### Data generators:
-- The BigDataGenerationSuite used to generate data-sets for the benchmarks was forked from [this repository](https://github.com/BenchCouncil/BigDataBench_V5.0_BigData_MicroBenchmark/tree/main/BigDataGeneratorSuite), and slightly adjusted - the files under the [./BigDataGeneratorSUite/Table_datagen/e-com/config/](./BigDataGeneratorSuite/Table_datagen/e-com/config/) directory, as made available in [this folder](./BigDataGeneratorSuite/), together with the proper LICENSE.
+- The BigDataGenerationSuite used to generate data-sets for the benchmarks was forked from [this repository](https://github.com/BenchCouncil/BigDataBench_V5.0_BigData_MicroBenchmark/tree/main/BigDataGeneratorSuite), and slightly adjusted, as made available in [this folder](./BigDataGeneratorSuite/), together with the proper LICENSE. The altered files include the configuration XML files found in the [./BigDataGeneratorSuite/Table_datagen/e-com/config/](./BigDataGeneratorSuite/Table_datagen/e-com/config/) directory.
 
 ### Benchmarking and Monitoring:
 - All cluster monitoring and benchmarked resource usage metrics collection was achieved with [Netdata](https://www.netdata.cloud/). These make up +8GB, together with the logs of the benchmarks in [this separate repository](https://github.com/duartegithub/Unicage-Benchmarks-2021-2022-Results).
